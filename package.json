@@ -1,0 +1,24 @@
+{
+  "name": "clonetagram",
+  "version": "0.0.1",
+  "description": "Servidor de app clone de Instagram",
+  "main": "index.js",
+  "author": "Victor David Sanchez Garcia",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.16.0",
+    "aws-sdk": "^2.723.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
