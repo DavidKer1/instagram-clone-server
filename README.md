@@ -1,5 +1,7 @@
 # Instagram Clone Server
 A server for React App made with GraphQL
+
+Deployed in Heroku
 ### Dependencies
 - apollo-server
 - aws-sdk
